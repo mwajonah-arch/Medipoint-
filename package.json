@@ -1,0 +1,21 @@
+{
+  "name": "@workspace/api-client-react",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./hooks/*": "./src/hooks/*.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.0.0",
+    "pusher-js": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.9.0"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
